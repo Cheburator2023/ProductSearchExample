@@ -1,0 +1,27 @@
+{
+  "name": "product-search-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Product Search application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.3",
+    "glob": "^9.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "rimraf": "^4.0.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
