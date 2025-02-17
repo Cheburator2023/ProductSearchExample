@@ -1,4 +1,4 @@
-# Stage 1: Build the application
+# Stage 1: Build the backend application
 FROM gradle:8.12.0-jdk21 AS build
 
 # Set the working directory
